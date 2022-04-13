@@ -1,0 +1,117 @@
+.background{
+    position: relative;
+}
+
+.background-image{
+    object-fit: contain;
+    width: 1519px;
+    position: absolute;
+}
+
+.text{
+    position: absolute;
+    color: white;
+    top: 220px;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.my-name{
+    font-size: 88px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-line, .second-line{
+    display: flex;
+    font-family: Josefin Sans, Roboto, Arial;
+}
+
+.first-line{
+    margin-bottom: 16px;
+}
+
+
+.heading-one, .heading-two, .heading-three, .heading-four{
+   transition: color 0.5s;
+   padding-right: 20px;
+}
+
+.heading-one:hover, .heading-two:hover,
+ .heading-three:hover, .heading-four:hover{
+    color:rgb(187, 187, 187) ;
+    cursor: pointer;
+    font-size: 90px;
+}
+
+.heading-one:hover{
+    color: rgb(255, 71, 71);
+}
+
+.heading-two:hover{
+    color: green;
+}
+
+.heading-three:hover{
+    color: rgb(85, 85, 255);
+}
+
+.heading-four:hover{
+    color: rgb(255, 217, 0);
+}
+
+.short-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+
+.what-I-am{
+    display: flex;
+}
+
+.atribute-one{
+    padding-right: 20px;
+    transition: color 0.3s;
+}
+
+.atribute-one:hover, .atribute-two:hover, .atribute-three:hover{
+    color:rgb(185, 185, 185);
+    cursor: pointer;
+}
+
+.atribute-two, .atribute-three{
+    transition: color 0.3s;
+}
+
+.contact-me-button-container{
+    margin-top: 100px;
+}
+
+.contact-me-button{
+    font-size: 30px;
+    background-color: black;
+    border: solid;
+    border-width: 1px;
+    border-color: gray;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.9);
+    transition: color, background-color 0.6s;
+}
+
+.contact-me-button:hover{
+    background-color: white;
+    color: black;
+    border-color: black;
+    box-shadow: 0 0 0 0;
+}

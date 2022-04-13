@@ -1,0 +1,20 @@
+.sidebar{
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 224px;
+    bottom: 224px;
+    background-color: lightpink;
+    display: flex;
+    flex-direction: column;
+}
+
+.social-media-button{
+    background-color: gray;
+    height: 46px;
+    width: 46px;
+}
+
+.social-media-picture{
+    width: 46px;
+}
